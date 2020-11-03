@@ -43,7 +43,7 @@ class EditUser extends React.Component {
       gender,
     }).then( ()=> {
       console.log("success")
-      this.props.history.push("/dashboard");
+      this.props.history.push("/dash");
     })
     .catch(function (error) {
       // An error happened.
